@@ -1,5 +1,24 @@
+/* shared style */
+/* webpage font */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 *{
     padding: 0px;
     margin: 0;
-    background-color: blanchedalmond;
+    background-color: #ffebcd57;
+    font-family: "Afacad Flux", sans-serif;
+}
+.website-heading{
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: rgb(39, 65, 79);
+    border: 2px solid;
+    padding: 70px 30px 30px;
+    height: 150px;
+    background-image: url('../assets/website\ layout.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
