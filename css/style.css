@@ -128,6 +128,13 @@ th,tr,td{
     border:2px solid #7c7ce3;
     padding: 10px;
 }
+.css-display-container-2{
+    display: flex;
+    justify-content: space-around;
+    border:2px solid #7c7ce3;
+    padding: 10px;
+    margin: 20px 0px;
+}
 .display-container{
     border:2px solid #040445;
     text-align: center;
