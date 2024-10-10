@@ -7,6 +7,13 @@
     /* background-color: #ffebcd57; */
     font-family: "Afacad Flux", sans-serif;
 }
+a:hover{
+   color: antiquewhite; 
+   background-color: #7c7ce3;
+   padding: 7px;
+   margin-right: 10px;
+   border-radius: 10px;
+}
 /* header start */
 .website-heading{
     font-size: 70px;
@@ -40,19 +47,36 @@ section{
 .website-layout-container{
     padding: 10px 90px 30px;
 }
+.layout-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+    padding: 20px 0px 30px 30px;
+    font-size: 1.1em;
+}
 .layout-desc{
-    padding: 0px 50px;
+    /* border: 2px solid;  */
+    margin: 20px 0px;
+    padding: 10px 0px 10px 80px;
     text-align: justify;
-    font-size: 1.4em;   
 }
-li{
+
+.layout-anchor{
+    text-decoration: none;
+    color: black;
     font-weight: 700;
-    margin: 0px 40px;
-    padding: 10px 80px;
-    text-align: justify;
-    font-size: 1.4em; 
-    list-style: decimal;
 }
+.layout-anchor::first-letter{
+    text-transform: capitalize;
+}
+.text-emphasize{
+    font-weight: 700;
+}
+.layout-img>img{
+    box-shadow: 1px 1px 3px 3px #a52a2a45;
+}
+
 /* website layout desc section start */
 
 /* css measuring section start */
@@ -88,6 +112,7 @@ li{
     text-decoration: none;
     margin: 50px;
 }
+
 table{
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 255, 0.252);
     text-align: center;
