@@ -7,6 +7,7 @@
     /* background-color: #ffebcd57; */
     font-family: "Afacad Flux", sans-serif;
 }
+/* header start */
 .website-heading{
     font-size: 70px;
     justify-content: center;
@@ -26,13 +27,37 @@ h1{
     text-align: center;
     text-transform: capitalize;
 }
-/* css measuring section */
-.css-measuring-container{
+/* header end */
+
+/* menu style start */
+section{
     margin: 40px 130px;
     padding: 40px 80px;
-    text-align: center;
     background-color: #f0daad87;
     box-shadow: 0px 0px 3px 3px ;
+}
+/* website layout desc section start */
+.website-layout-container{
+    padding: 10px 90px 30px;
+}
+.layout-desc{
+    padding: 0px 50px;
+    text-align: justify;
+    font-size: 1.4em;   
+}
+li{
+    font-weight: 700;
+    margin: 0px 40px;
+    padding: 10px 80px;
+    text-align: justify;
+    font-size: 1.4em; 
+    list-style: decimal;
+}
+/* website layout desc section start */
+
+/* css measuring section start */
+.css-measuring-container{   
+    text-align: center;      
 }
 /* .measuring-heading{
     color: rgb(3, 20, 30);
@@ -50,10 +75,12 @@ h1{
 /* .measuring-items-img{
     padding: 30px 80px;
 } */
-.table-caption{
+.table-caption,.section-heading{
     font-size: 3rem;
     font-weight: 700;
     margin: 0px 0px 50px;
+    color: rgb(3, 20, 30);
+    text-shadow: 3px 3px lightblue;
 }
 .table-caption> a {
     color: rgb(3, 20, 30);
@@ -70,3 +97,4 @@ th,tr,td{
     padding: 8px;
     border: 2px solid #040445;
 }
+/* css measuring section start */
