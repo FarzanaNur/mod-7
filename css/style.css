@@ -12,15 +12,17 @@
     justify-content: center;
     align-items: center;
     border: 2px solid;
-    padding: 70px 30px 50px;
+    padding: 50px;
     height: 150px;
     background-image: url('../assets/website\ layout.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: .9;
 }
 h1{
-    color: rgb(39, 65, 79);
+    color: rgb(8, 36, 50);
+    text-shadow: 3px 3px whitesmoke;
     text-align: center;
     text-transform: capitalize;
 }
