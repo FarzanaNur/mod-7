@@ -129,7 +129,9 @@ th,tr,td{
 /* css measuring section start */
 /* css display property start */
 /* justify-content start */
-.css-display-container-1{
+.justify-content{
+    margin: 20px 0px 50px;
+}.css-display-container-1{
     display: flex;
     justify-content: space-between;
     border:2px solid #7c7ce3;
@@ -145,6 +147,13 @@ th,tr,td{
 .css-display-container-three{
     display: flex;
     justify-content: space-evenly;
+    border:2px solid #7c7ce3;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.css-display-container-4{
+    display: flex;
+    justify-content:flex-start;
     border:2px solid #7c7ce3;
     padding: 10px;
     margin: 20px 0px;
