@@ -212,7 +212,15 @@ th,tr,td{
 }
 /* align-items end */
 
-/* flexbox,flex direction start */
+/* flexbox,flex direction,flex - grid,grid repeat start */
+.reverse-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center; */
+    /* align-items: center; */
+    grid-gap: 20px;
+    /* width: fit-content; */
+}
 .css-display-container-10{
     display: flex;
     /* flex-direction: row; */
