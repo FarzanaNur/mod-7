@@ -1,0 +1,91 @@
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+header,footer{
+    background-color: #f3c4f3;
+    font-size: 4rem;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px purple;
+    color: palevioletred;
+    text-shadow:1px 4px black;
+    padding: 30px;
+}
+header{
+    border: 2px solid purple;
+    background-image: url('../assets/task-1-img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: fit-content; */
+}
+menu{
+    justify-content: center;
+    align-items: center;
+    background-color: thistle;
+}
+.container{
+    display: flex;
+    gap: 40px;
+    max-width: 700px auto;
+    margin: 0px 20px;
+    padding: 50px 0px;
+    text-align: justify;
+}
+.img-container{
+    width: 40%;
+    border: 2px solid purple;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.img-container img{
+    border-radius: 15px;
+}
+.review-container{
+    border: 2px solid purple;
+    border-radius: 15px;
+    display: block;
+    background-color: #f3c4f3;
+}
+.review{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.footer{
+    font-size: 2em;
+    text-shadow: none;
+}
+@media (max-width: 640px){
+    .heading{
+        text-align: center;
+        font-size: .5em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .img-container{
+        width:100% ;
+        padding: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin: 0;
+    }
+    .review-container{
+        width:100% ;
+        padding: 30px;
+        margin: 0;
+        
+    }
+    .footer{
+        font-size: medium;
+        text-align: center;
+    }
+}
