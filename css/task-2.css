@@ -63,6 +63,7 @@ img{
     /* font-size: 1.2em; */
     margin-bottom: 20px;
 }
+/* responsive part */
 @media screen and (max-width: 1077px) {
     .container{
         display: flex;
