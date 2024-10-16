@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Blog</title>
+    <title>Cookbook Of A Foodie</title>
+    <link rel="stylesheet" href="./css/task-4.css">
+    <link rel="shortcut icon" href="./assets/task-4-img/logo3.PNG" type="image/x-icon">
 </head>
 <body>
-    
+    <!-- header.header>nav.nav-1>h1.website-heading^nav.nav-2>ul.nav-ul>a>img^li>a*4 -->
+    <header class="header">
+        <nav class="nav-1">
+            <h1 class="website-heading">Cook book of a foodie</h1>
+        </nav>
+        <nav class="nav-2">
+            <ul class="nav-ul">
+                <a href="./assets/task-4-img/logo.PNG">
+                    <img src="./assets/task-4-img/logo3.PNG" width="30%" alt="">
+                </a>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">Recipes</a>
+                    <a href="#" target="_blank">About</a>
+                    <a href="#" target="_blank">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main>h1.main-title+sec.container-section -->
+    <main>
+        <h1 class="main-title">Cook book of a 
+            <span>
+                <a href="about.html" class="text-primary">foodie</a>
+            </span>
+        </h1>
+        <section class="section img-sroll-section">
+            <div class="scrolling-image-container">
+                <img src="./assets/task-4-img/saslik.jpg" alt="Chicken Vegetable Shashlik" >
+                <img src="./assets/task-4-img/biriyani.jpg" alt="Chicken Biryani" >
+                <img src="./assets/task-4-img/Tuna-kebab.jpg" alt="Tuna Kebab" >
+                <img src="./assets/task-4-img/momo.jpg" alt="Chicken Mo-Mo" >
+                <img src="./assets/task-4-img/chowmin.jpg" alt="Chicken Chow-mein" >
+              </div>
+        </section>
+        <!-- section.section>.recipe-section>.img-recipe-container*2>.img+.recipe-container>h1.recipe-heading+p.ingredients>h3.sub-heading+p.ingredient-list^^p.recipe-desc>h3.sub-heading+p.recipe-process+button.button-primary -->
+        <section class="section img-recipe-section">
+            <div class="img-recipe-main-container">
+                <div class="img-recipe-container">
+                    <div class="img">
+                        <img src="./assets/task-4-img/chowmin.jpg" alt="Chicken Chow-mein">
+                    </div>
+                    <div class="recipe-container">
+                        <h1 class="recipe-heading text-primary">Mixed Chow-mein</h1>
+                        <p class="ingredients">
+                            <h3 class="sub-heading text-primary">Ingredients:</h3>
+                            <p class="ingredient-list">
+                                Chow-mein Noodles,Boneless Chicken,Egg(optional),Choice of Vegetable,Mushroom(optional),Black Paper,Salt,Soya Sauce,Butter/ Choice of Oil,Oregano(optional),Chilli-flex.
+                            </p>
+                        </p>
+                        <p class="recipe-desc">
+                            <h3 class="sub-heading text-primary">Process:</h3>
+                            <p class="recipe-process">
+                                First, boil water, and then add the noodles along with a tip of oil and a pinch of salt; the salt will help season the noodles and prevent them from sticking together. Next, add butter to a pan and, over medium heat, scramble the egg with a bit of salt and pepper. Once the egg is done, add the chicken, mushrooms, and vegetables, seasoning with salt and pepper according to taste. After a few minutes, stir in the sauce mixture (dark soy sauce, light soy sauce, oyster sauce, Worcestershire sauce [optional], tomato sauce, and sugar to taste), and allow it to simmer for a few minutes. If the mixture becomes too thick, you can add a little of the noodle cooking water. Meanwhile, check if the noodles are 90% cooked; if they are, drain them and let them cool. <span class="text-primary">Remember,</span> never overcook the noodles! Finally, add the noodles to the chicken and vegetable mixture, toss everything together, and adjust the seasoning with salt, pepper, and chili flakes. Your dish is now ready to enjoy!
+                            </p>
+                        </p>
+                        <button class="button-primary">Read More</button>
+                    </div>
+                </div>
+                <!-- <div class="img-recipe-container">
+                    <div class="img"></div>
+                    <div class="recipe-container">
+                        <h1 class="recipe-heading"></h1>
+                        <p class="ingredients">
+                            <h3 class="sub-heading">Ingredients:</h3>
+                            <p class="ingredient-list">
+                                Chow-mein Noodles,Boneless Chicken,Egg(optional),Choice of Vegetable
+                            </p>
+                        </p>
+                        <p class="recipe-desc"></p>
+                        <button class="button-primary">Read More</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,119 @@
+/* shared styling start */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.text-primary{
+    color: #492104;
+    text-decoration: none;
+    font-weight: 700;
+    /* text-shadow:2px 2px #e79b65; */
+}
+.button-primary{
+    color: #f3a545;
+    background-color: #492104;
+    font-size: .9em;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.button-primary:hover{
+    color: #492104;background-color: #f3a545;
+}
+body{
+    background-color: #f3bb7752;
+}.section{
+    margin: 30px 100px;
+    background-color: #f3bc77;
+    box-shadow:0px 0px 2px 4px #4921045e;
+    border-radius: 20px;
+}
+/* shared styling end */
+
+/* header styling start */
+.nav-1{
+    font-size: .5em;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    padding: 10px 0px;
+    color: #f3a545;
+    background-color: #492104;
+    box-shadow:0px 0px 4px 4px #e79b65;
+}
+.nav-2{
+    padding: 10px 20px ;
+    background-color: #f3a545;
+    border-bottom:5px solid #492104;
+    box-shadow:0px 0px 2px 4px #4921045e;
+}
+.nav-2 img{
+    border: 5px solid #492104;
+    border-radius: 20%;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul li{
+    list-style: none;  
+}
+.nav-ul li a{
+    color: #492104;
+    font-size: 1.4em;
+    margin-right: 20px;
+    text-decoration: none;
+}
+/* header styling end */
+/* main section start */
+.main-title{
+    color: #f3a545;
+    font-size: 3.2em;
+    text-align: center;
+    text-shadow:2px 2px #492104;
+    text-decoration: underline #492104;
+    text-transform: capitalize;
+    padding: 20px;
+}
+/* scrolling image styling start */
+.scrolling-image-container {
+    overflow: auto;
+    white-space: nowrap;
+    margin: 20px 0px;
+}  
+.scrolling-image-container img {
+    padding: 20px;
+    width: 20%;
+    border-radius: 20px;
+}
+/* scrolling image styling start */
+/* recipe+image container styling start */
+.img-recipe-section img{
+    height: 500px;
+}
+.img-recipe-container{
+    border: 2px solid #492104;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.recipe-container{
+    font-size: 1.1em;
+    padding: 10px 20px;
+    text-align: justify;
+    background-color: beige;
+    border-radius: 20px;
+    border:2px solid #492104;
+}
+/* recipe+image container styling end */
+/* main section end */
