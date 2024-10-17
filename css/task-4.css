@@ -11,6 +11,13 @@
     font-weight: 700;
     /* text-shadow:2px 2px #e79b65; */
 }
+.recipe-heading{
+    color: #f3a545;
+    font-size: 2.5em;
+    text-decoration: underline  #492104;
+    text-shadow:2px 2px #492104;
+    margin-bottom: 10px;
+}
 .button-primary{
     color: #f3a545;
     background-color: #492104;
@@ -66,10 +73,14 @@ body{
     list-style: none;  
 }
 .nav-ul li a{
-    color: #492104;
+    color: #311501;
     font-size: 1.4em;
     margin-right: 20px;
     text-decoration: none;
+}
+.nav-ul li a:hover{
+    color: #753b12;
+    font-weight: 700;
 }
 /* header styling end */
 /* main section start */
@@ -96,7 +107,8 @@ body{
 /* scrolling image styling start */
 /* recipe+image container styling start */
 .img-recipe-section img{
-    height: 500px;
+    height: 600px;
+    border-radius: 20px;
 }
 .img-recipe-container{
     border: 2px solid #492104;
@@ -117,3 +129,73 @@ body{
 }
 /* recipe+image container styling end */
 /* main section end */
+footer{
+    font-size: 2em;
+    color: #f3a545;
+    text-align: center;
+    background-color: #311501;
+    padding: 30px;
+}
+/* responsive */
+/* max width:1370 */
+@media(max-width:1370px){
+    .img-recipe-section img{
+        width: 100%;
+        height: auto;  
+    }
+    .img-recipe-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .recipe-container{
+        font-size: .97em;
+    }
+}
+@media(max-width:1330px){
+    .img-recipe-section img{
+        width: 100%;
+        height: auto;  
+        margin-right: 50px;
+    }
+    .img-recipe-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 15px;
+    }
+    .recipe-container{
+        font-size: 1.em;
+    }
+    .recipe-heading{
+        font-size: 2em;
+    }
+}
+@media(max-width:412px){
+    .nav-ul li a{
+        display: block;
+        font-size: .9em;
+    }
+    .main-title{
+        font-size: 1.8em;
+    }
+    .section{
+        margin: 10px;
+    }
+    .recipe-heading{
+        font-size: 1.8em;
+    }
+    .img-recipe-section img{
+        width: 100%;
+        height: auto;  
+    }
+    .img-recipe-container{
+        display: grid;
+        gap: 5px;
+        /* flex-direction: column; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    .recipe-container{
+        font-size: .8em;
+    }
+}
